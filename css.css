@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar-section{
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    justify-content: center;
+    background-color:#424244;
+    height: 50px;
+}
+.navbar-section-inner-element-content{
+    display:flex;
+    color: gray;
+    position: relative;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    
+}
+.navbar-section-inner-element-content:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.navbar-section-inner-element-content-hovering-content{
+    position: absolute;
+    display: none;
+    top:50px;
+    width: 100%;
+    color: white;
+    z-index: 1;
+    overflow: scroll;
+    background-color: black;
+}
+
+.navbar-hover-content{
+    margin: 50px 30px;
+}
+.navbar-hover-content-heading{
+    color: gray;
+    padding-bottom: 20px;
+    font-size: small;
+}
+.navbar-hover-content-list h1{
+    margin: 15px 0 15px 0;
+    font-size: 25px;
+}
+.navbar-hover-content-list h6{
+    margin: 15px 0 15px 0;
+    font-size: small;
+}
+.navbar-section-inner-element-content:hover .navbar-section-inner-element-content-hovering-content{
+    display: flex;
+    width: max-content;
+}
+
+#section-below-navbar-wallpaper img{
+    max-width: 100%;
+}
+.section-below-navbar-wallpaper{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.section-below-navbar-onWallpaper-text{
+   position: absolute;
+   top: 0;
+   margin-top: 70px;
+}
+.section-below-navbar-onWallpaper-text-heading {
+    display: flex;
+    justify-content: center;
+}
+.section-below-navbar-onWallpaper-text-heading h1{
+    color: white;
+    font-size: 4rem;
+}
+.section-below-navbar-onWallpaper-text-subheading {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+}
+.section-below-navbar-onWallpaper-button{
+    display: flex;
+    justify-content: center;
+}
+.section-below-navbar-onWallpaper-button button{
+      border: none;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      font-size: 25px;
+}
+.section-below-navbar-onWallpaper-button button:hover{
+   border-bottom: 2px white solid;
+   cursor: pointer;
+}
+
+.section-below-background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+.section-below-background-text-heading{
+    height: 33%;
+    
+}
+.section-below-background-text-heading h1{
+    font-size: 4rem;    
+}
+.section-below-background-text-subheading{
+    display: flex;
+    height: 33%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+}
+.section-below-background-button{
+    display: flex;
+    justify-content: center;
+}
+.section-below-background-button button{
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    background-color: transparent;
+    font-size: 25px;
+}
+.section-below-background-button button:hover{
+   border-bottom: 1px blue solid;
+   cursor: pointer;
+}
+
